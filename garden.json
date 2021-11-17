@@ -1,11 +1,4 @@
 { "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "target":"."
-        }
-    },
  "height":158,
  "infinite":false,
  "layers":[
@@ -247,9 +240,39 @@
          "width":162,
          "x":0,
          "y":0
+        }, 
+        {
+         "id":28,
+         "image":"garden_dawn.png",
+         "name":"dawn",
+         "opacity":0.86,
+         "type":"imagelayer",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":30,
+         "image":"garden_night.png",
+         "name":"night",
+         "opacity":0.6,
+         "type":"imagelayer",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":29,
+         "image":"garden_dusk.png",
+         "name":"dusk",
+         "opacity":0.62,
+         "type":"imagelayer",
+         "visible":true,
+         "x":0,
+         "y":0
         }],
- "nextlayerid":26,
- "nextobjectid":1,
+ "nextlayerid":31,
+ "nextobjectid":3,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -258,7 +281,7 @@
          "value":true
         }],
  "renderorder":"right-down",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.7.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -3170,6 +3193,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.4,
+ "version":"1.6",
  "width":162
 }
