@@ -226,7 +226,12 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"bbbRoom",
+                 "type":"string",
+                 "value":"https:\/\/bbb.cyber4edu.org\/b\/der-6mh-7tc"
+                }, 
+                {
+                 "name":"openWebsiteOLD",
                  "type":"string",
                  "value":"https:\/\/pads.cyber4edu.org\/s\/oR7h0l-kU"
                 }],
@@ -424,6 +429,105 @@
         }, 
         {
          "draworder":"topdown",
+         "id":33,
+         "name":"urltest",
+         "objects":[
+                {
+                 "height":300,
+                 "id":5,
+                 "name":"test",
+                 "properties":[
+                        {
+                         "name":"allowApi",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"url",
+                         "type":"string",
+                         "value":"test.html"
+                        }],
+                 "rotation":0,
+                 "type":"website",
+                 "visible":true,
+                 "width":180,
+                 "x":1510,
+                 "y":650
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":30,
+         "name":"bbbb",
+         "objects":[
+                {
+                 "height":116,
+                 "id":1,
+                 "name":"bbbb",
+                 "properties":[
+                        {
+                         "name":"allowApi",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"url",
+                         "type":"string",
+                         "value":"bbbblue.html"
+                        }],
+                 "rotation":0,
+                 "type":"website",
+                 "visible":true,
+                 "width":147.5,
+                 "x":102.5,
+                 "y":197.5
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":31,
+         "name":"bbby",
+         "objects":[
+                {
+                 "height":111,
+                 "id":4,
+                 "name":"bbby",
+                 "properties":[
+                        {
+                         "name":"allowApi",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"url",
+                         "type":"string",
+                         "value":"bbbyellow.html"
+                        }],
+                 "rotation":0,
+                 "type":"website",
+                 "visible":true,
+                 "width":142,
+                 "x":2185,
+                 "y":201
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
          "id":5,
          "name":"floorLayer",
          "objects":[],
@@ -445,8 +549,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":29,
- "nextobjectid":1,
+ "nextlayerid":35,
+ "nextobjectid":7,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
@@ -3330,6 +3434,10 @@
                         }]
                 }],
          "tilewidth":32
+        }, 
+        {
+         "firstgid":5312,
+         "source":"c4e_mapUtilities.json"
         }],
  "tilewidth":32,
  "type":"map",
