@@ -691,9 +691,15 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":49,
+ "nextlayerid":34,
  "nextobjectid":1,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"CC-BY-SA cyber4EDU"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,
@@ -701,11 +707,17 @@
         {
          "columns":18,
          "firstgid":1,
-         "image":"cija_32x32_expansion for Pipoya_CC0.png",
+         "image":"tiles\/cija_32x32_expansion for Pipoya_CC0.png",
          "imageheight":4256,
          "imagewidth":576,
          "margin":0,
          "name":"cija_32x32_expansion for Pipoya_CC0",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0 (rC3 2000)"
+                }],
          "spacing":0,
          "tilecount":2394,
          "tileheight":32,
@@ -1489,11 +1501,17 @@
         {
          "columns":9,
          "firstgid":2395,
-         "image":"cert_mapUtilities.png",
+         "image":"tiles\/cert_mapUtilities.png",
          "imageheight":32,
          "imagewidth":288,
          "margin":0,
          "name":"cert_mapUtilities",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA CERT (cert.ccc.de) Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kopie dieser Lizenz zu sehen, besuchen Sie http:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/."
+                }],
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
@@ -1502,11 +1520,17 @@
         {
          "columns":16,
          "firstgid":2404,
-         "image":"cert_misc.png",
+         "image":"tiles\/cert_misc.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
          "name":"cert_misc",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA CERT (cert.ccc.de) Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kopie dieser Lizenz zu sehen, besuchen Sie http:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/."
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -1515,11 +1539,17 @@
         {
          "columns":7,
          "firstgid":3428,
-         "image":"minideko.png",
+         "image":"tiles\/minideko.png",
          "imageheight":416,
          "imagewidth":224,
          "margin":0,
          "name":"minideko",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"cc0"
+                }],
          "spacing":0,
          "tilecount":91,
          "tileheight":32,
@@ -1528,7 +1558,7 @@
         {
          "columns":9,
          "firstgid":3519,
-         "image":"woodenfloors.png",
+         "image":"tiles\/woodenfloors.png",
          "imageheight":256,
          "imagewidth":288,
          "margin":0,
@@ -1547,7 +1577,7 @@
         {
          "columns":16,
          "firstgid":3591,
-         "image":"tower_furniture___scroll_version_by_nicnubill.png",
+         "image":"tiles\/tower_furniture___scroll_version_by_nicnubill.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -1621,7 +1651,7 @@
         {
          "columns":16,
          "firstgid":3847,
-         "image":"tower_of_sorrow___layer_b_by_nicnubill.png",
+         "image":"tiles\/tower_of_sorrow___layer_b_by_nicnubill.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -1695,7 +1725,7 @@
         {
          "columns":16,
          "firstgid":4103,
-         "image":"tilesets_deviant_milkian_1.png",
+         "image":"tiles\/tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -1918,33 +1948,6 @@
                         }]
                 }, 
                 {
-                 "id":155,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":156,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":157,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
                  "id":161,
                  "properties":[
                         {
@@ -1990,6 +1993,33 @@
                         }]
                 }, 
                 {
+                 "id":171,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":172,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":173,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
                  "id":196,
                  "properties":[
                         {
@@ -2012,11 +2042,17 @@
         {
          "columns":16,
          "firstgid":4359,
-         "image":"food_and_drinks.png",
+         "image":"tiles\/food_and_drinks.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
          "name":"food_and_drinks",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC-BY-SA CERT (cert.ccc.de) Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kopie dieser Lizenz zu sehen, besuchen Sie http:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/."
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -2044,7 +2080,7 @@
         {
          "columns":16,
          "firstgid":5383,
-         "image":"request_april_by_nicnubill_d7dvydh.png",
+         "image":"tiles\/request_april_by_nicnubill_d7dvydh.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -2294,6 +2330,42 @@
                         }]
                 }, 
                 {
+                 "id":211,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":212,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":213,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":214,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
                  "id":227,
                  "properties":[
                         {
@@ -2370,7 +2442,7 @@
         {
          "columns":16,
          "firstgid":5639,
-         "image":"cavernofsorrowb_by_nicnubill_d6qnbs4.png",
+         "image":"tiles\/cavernofsorrowb_by_nicnubill_d6qnbs4.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -2389,7 +2461,7 @@
         {
          "columns":33,
          "firstgid":5895,
-         "image":"dsr.png",
+         "image":"tiles\/dsr.png",
          "imageheight":1056,
          "imagewidth":1056,
          "margin":0,
@@ -2402,7 +2474,7 @@
         {
          "columns":33,
          "firstgid":6984,
-         "image":"c4E_dsr.png",
+         "image":"tiles\/c4E_dsr.png",
          "imageheight":3168,
          "imagewidth":1056,
          "margin":0,
@@ -2415,7 +2487,7 @@
         {
          "columns":33,
          "firstgid":10251,
-         "image":"dsr_point.png",
+         "image":"tiles\/dsr_point.png",
          "imageheight":1056,
          "imagewidth":1056,
          "margin":0,
